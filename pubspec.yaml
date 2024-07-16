@@ -1,0 +1,68 @@
+name: flutex_admin
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  intl: ^0.18.1
+  get: ^4.6.5
+  http: ^1.2.1
+  dio: ^5.4.3+1
+  flutter_svg: ^2.0.4
+  lottie: ^2.3.1
+  carousel_slider: ^4.1.1
+  shared_preferences: ^2.0.13
+  url_launcher: ^6.0.20
+  flutter_widget_from_html: ^0.10.0
+  share_plus: ^4.0.6
+  flutter_spinkit: ^5.1.0
+  cached_network_image: ^3.3.1
+  file_picker: ^8.0.3
+  connectivity_plus: ^5.0.2
+  image_picker: ^0.8.6+1
+  animation_wrappers: ^3.0.0
+  introduction_screen: ^3.1.12
+  nb_utils: ^6.1.2
+  flutter_html: ^3.0.0-beta.2
+  syncfusion_flutter_charts: ^21.2.8
+  contained_tab_bar_view: ^0.8.0
+  multi_dropdown: ^2.1.4
+  date_field: ^4.0.0
+  cookie_jar: ^4.0.8
+  requests_plus: ^4.8.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section
+  assets:
+    - assets/images/
+    - assets/animation/
+    - assets/lang/
+
+  fonts:
+    - family: Montserrat-Arabic
+      fonts:
+        - asset: assets/fonts/Montserrat-Arabic-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-Arabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Arabic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Arabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Arabic-Bold.ttf
+          weight: 700
